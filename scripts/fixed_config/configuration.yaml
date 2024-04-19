@@ -4,7 +4,7 @@ default_config:
 http:
   use_x_forwarded_for: true
   trusted_proxies:
-    - 0.0.0.0/0
+    - 172.30.33.0/24
 auth_header:
   username_header: X-authentik-username
 

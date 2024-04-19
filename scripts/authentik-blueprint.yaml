@@ -4,7 +4,7 @@ metadata:
   name: hass-auth-header - Testing setup
 context:
   # Needs to be changed if the test setup is completely in docker
-  internal_host: http://localhost:8123
+  internal_host: https://pkoffice.codersonclick.com/
 entries:
   - model: authentik_providers_proxy.proxyprovider
     id: provider
